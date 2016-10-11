@@ -59,7 +59,7 @@ var mode = 'anarchy';
 var democracyThresh = 10;
 var democracyCommands = {};
 // current leader of legion, if there is one
-var legionThresh = 1;//5;
+var legionThresh = 5;
 var legionController = null;
 // people who have chatted recently
 var recentParticipants = {};
