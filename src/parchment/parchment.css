@@ -25,10 +25,19 @@ body
 	text-align: center;
 }
 
+#container
+{
+	display: -webkit-flex;     /* NEW - Chrome */
+}
+
 #parchment
 {
-	margin: 0 auto;
+	margin: 0;
+	padding: 0 100px;
+	width: 900px;
 	text-align: left;
+	border-right: 2px solid #eeeeee;
+	float: left;
 }
 
 #gameport
@@ -40,6 +49,41 @@ body
 	position: absolute;
 	text-align: left;
 	width: 100%;
+}
+
+#chat
+{
+	width: 400px;
+	overflow-y: hidden;
+	position: fixed; 
+	text-align: left;
+	float: right;
+	padding: 40px 20px;
+	margin-left: 970px;
+	border-right: 2px solid #eeeeee;
+}
+
+#chat-status {
+	width: 400px;
+	padding: 3px 4px;
+	color: white;
+	background-color: black;
+	font-size: 16pt;
+	position: fixed; 
+	text-align: left;
+	float: right;
+	margin-left: 970px;
+}
+
+.chat-name {
+	font-weight: 700;
+}
+.chat-colon {
+	margin-right: .375em;
+	opacity: .85;
+}
+.chat-line:not(.chat-action) .chat-colon:after {
+	content: ':';
 }
 
 /* General dialogs */

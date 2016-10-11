@@ -24,7 +24,7 @@ var QuixeRunner = Object.subClass({
 		
 		// Add the html Glkote needs
 		jQuery( env.container ).html( '<div id="gameport"><div id="windowport"></div><div id="errorpane" style="display:none;"><div id="errorcontent">...</div></div></div>' );
-
+		jQuery( env.container ).append( '<div id="chat"></div>' );
 	},
 	
 	// Handler for events from Parchment

@@ -77,8 +77,8 @@ parchment.lib.UI = Object.subClass({
 		{
 			this.panels.url = $( '<form class="panel url"><label for="panel_url">You may use Parchment to play any story file on the internet, simply copy its address here:</label><input id="panel_url" name="story"></form>' );
 		}
-		
 		this.library.container.append( this.panels[ panels[0] ] );
+		this.library.container.append( this.panels[ panels[1] ] );
 		this.panels.active = panels[0];
 	}
 

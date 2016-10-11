@@ -11,7 +11,8 @@
   "homepage": "https://github.com/curiousdannii/parchment",
   "bugs": "https://code.google.com/p/parchment/issues/list",
   "dependencies": {
-    "express": "~3.2.4"
+    "express": "~3.2.4",
+    "tmi.js": "^1.1.1"
   },
   "devDependencies": {
     "browserify": "^13.1.0",

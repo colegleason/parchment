@@ -26,6 +26,7 @@ module.exports = function( grunt )
 						'src/parchment/error-handling.js',
 						'src/parchment/file.js',
 						'src/parchment/ui.js',
+						'src/parchment/twitch.js',
 						'src/parchment/library.js',
 						'src/parchment/quixe.js',
 						'src/parchment/ifvms.js',

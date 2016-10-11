@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<title>Parchment</title>
 	<script src="src/lib/jquery.js"></script>
+	<!--Sourcemap: //cdn.tmijs.org/js/latest/1.x/tmi.js.map-->
+	<script src="https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js"></script>
+	<script src="//cdn.tmijs.org/js/latest/1.x/tmi.min.js"></script>
 	<script src="lib/parchment.debug.js"></script>
 	<link rel="stylesheet" href="lib/parchment.debug.css">
 	<meta name="viewport" content="width=device-width,user-scalable=no">
@@ -14,6 +17,12 @@
 		<p>is an interpreter for Interactive Fiction. <a href="https://github.com/curiousdannii/parchment">Find out more.</a></p>
 		<noscript><p>Parchment requires Javascript. Please enable it in your browser.</p></noscript>
 	</div>
-	<div id="parchment" aria-live="polite" aria-atomic="false" aria-relevant="additions"></div>
+	<div id="container">
+		<div id="parchment" aria-live="polite" aria-atomic="false" aria-relevant="additions">
+		</div>
+		<div id="chat-status"></div>
+		<div id="chat">
+		</div>
+	</div>
 </body>
 </html>
