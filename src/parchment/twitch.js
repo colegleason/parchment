@@ -150,7 +150,7 @@ function getTopVote() {
 }
 
 function updateChatStatus() {
-	var timeLeft = Math.ceiling((modeInterval - (Date.now() - lastUpdate))/1000);
+	var timeLeft = Math.ceil((modeInterval - (Date.now() - lastUpdate))/1000);
 	var status = mode + ' (' + timeLeft + ')';
 	if (mode == 'democracy') {
 		var top = getTopVote();

@@ -61,7 +61,7 @@ window.parchment = {
 		page_title: 1,
 		chat_container: '#chat',
 		chat_client_id: 'eikbk6o80zjui8s5wjm1fim1rjja1bk',
-		chat_channel: 'colegleason',
+		chat_channel: 'twitchgamedesign',
 		// Front page panels to display if no default story
 		panels: [ 'ifdb', 'url', 'about' ],
 		
